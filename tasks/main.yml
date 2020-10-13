@@ -74,3 +74,11 @@
     value: "{{ thinlinc_xauthority_location }}"
   notify: restart vsmagent
   when: "'thinlinc_agents' in group_names"
+ 
+- name: Set /vsmagent/xserver_args
+  tlconfig:
+    param: /vsmagent/xserver_args
+    value: "{{ thinlinc_xserver_args }}"
+  notify: restart vsmagent
+  when: "'thinlinc_agents' in group_names"
+

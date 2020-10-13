@@ -35,3 +35,7 @@ thinlinc_agent_hostname: null
 # Options: 'sessiondir' or 'homedir'
 # Default is sessiondir.
 thinlinc_xauthority_location: "sessiondir"
+
+# The Thinlinc xserver_args
+# Set to default of 4.12.0 (build 6517)
+thinlinc_xserver_args: "-br -localhost -verbose 3"
