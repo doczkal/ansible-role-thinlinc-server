@@ -85,7 +85,7 @@
 - name: Set /vsmagent/default_environment/TOWN
   tlconfig:
     param: /vsmagent/default_environment/TOWN
-    value: "{{ thinlinc_default_environment_town }}"
+    value: "{{ thinlinc_environment_town }}"
   notify: restart vsmagent
   when: "'thinlinc_agents' in group_names"
 
