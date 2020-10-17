@@ -41,4 +41,4 @@ thinlinc_xauthority_location: "sessiondir"
 thinlinc_xserver_args: "-br -localhost -verbose 3"
 
 # Thinlinc configuration for TOWN default environment
-thinlinc_default_environment_town: null
+thinlinc_environment_town: Springfield
